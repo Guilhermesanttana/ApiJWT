@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.35.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ApiJWT.Core\ApiJWT.Core.csproj" />
+    <ProjectReference Include="..\ApiJWT.DAO\ApiJWT.DAO.csproj" />
+    <ProjectReference Include="..\ApiJWT.Utils\ApiJWT.Utils.csproj" />
+  </ItemGroup>
+
+</Project>
